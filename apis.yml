@@ -1,8 +1,17 @@
 aid: fractile
 name: Fractile
-description: 'Fractile is a company surfaced as a portfolio company of accel, felicis and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Fractile is a UK-based semiconductor startup, founded in 2022 and headquartered
+  in London with an engineering base in Bristol, designing a new class of AI
+  inference processors. Its architecture physically interleaves memory and compute
+  to overcome the memory-bandwidth bottleneck that limits large language model
+  inference, targeting frontier model serving up to 25x faster and at roughly
+  1/10th the cost of existing hardware. The company takes a full-stack approach
+  spanning transistor-level circuit design through cloud inference server logic,
+  and in May 2026 raised $220M to build the next generation of inference hardware.
+  Backers include Accel and Felicis. Led by founder and CEO Walter Goodwin,
+  Fractile is a hardware/compute company and does not currently publish a public
+  developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/fractile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/fractile-landing-page/aEg02bh8WN-LV75U_Thumbnail.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Semiconductors
+- AI Inference
+- AI Hardware
+- Compute
+- Chips
+- Deep Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://fractile.ai
+- type: About
+  url: https://fractile.ai/about
+- type: Blog
+  url: https://fractile.ai/news
+- type: Support
+  url: https://fractile.ai/#contact
+- type: TermsOfService
+  url: https://fractile-landing-page.cdn.prismic.io/fractile-landing-page/ajWUko1P9HI4UwKB_Fractile-Websitetermsofuse.docx
+- type: PrivacyPolicy
+  url: https://fractile-landing-page.cdn.prismic.io/fractile-landing-page/ajWUkI1P9HI4UwJ__Fractile-PrivacyPolicy.docx
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fractile/
+- type: DomainSecurity
+  url: security/fractile-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
